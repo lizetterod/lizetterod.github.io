@@ -368,8 +368,8 @@
         </div>
         <div class="hero-content">
             <h1>Lizette Gonzalez Rodriguez</h1>
-            <p>Physics Undergraduate | Astronomy Enthusiast | Future Researcher</p>
-            <a href="#about" class="cta-button">Explore My Universe</a>
+            <p>Physics Undergraduate | Astronomy Enthusiast | Lab Assistant</p>
+            <a href="#about" class="cta-button">Learn More about Me!</a>
         </div>
     </section>
 
@@ -377,7 +377,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div class="profile-placeholder">⭐</div>
+                <div class="profile-placeholder"> </div>
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
