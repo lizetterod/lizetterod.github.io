@@ -1,8 +1,10 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Physics & Astronomy</title>
     <style>
         * {
             margin: 0;
@@ -48,17 +50,20 @@
             top: 0;
             width: 100%;
             padding: 1rem 2rem;
-            background: rgba(10, 10, 15, 0.8);
-            backdrop-filter: blur(10px);
+            background: rgba(10, 10, 15, 0.9);
+            backdrop-filter: blur(20px);
             z-index: 1000;
             border-bottom: 1px solid rgba(138, 43, 226, 0.3);
+            height: 70px; /* Fixed height for consistent spacing */
+            display: flex;
+            align-items: center;
         }
 
         .nav-container {
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
 
@@ -176,6 +181,7 @@
             padding: 5rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
+            scroll-margin-top: 80px; /* Offset for fixed navbar */
         }
 
         .section-title {
@@ -335,7 +341,6 @@
 
     <nav>
         <div class="nav-container">
-            <div class="logo">YourName</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -367,9 +372,9 @@
             </svg>
         </div>
         <div class="hero-content">
-            <h1>Lizette Gonzalez Rodriguez</h1>
-            <p>Physics Undergraduate | Astronomy Enthusiast | Lab Assistant</p>
-            <a href="#about" class="cta-button">Learn More about Me!</a>
+            <h1>Your Name</h1>
+            <p>Physics Undergraduate | Astronomy Enthusiast | Future Researcher</p>
+            <a href="#about" class="cta-button">Explore My Universe</a>
         </div>
     </section>
 
@@ -377,7 +382,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div class="profile-placeholder"> </div>
+                <div class="profile-placeholder">⭐</div>
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
@@ -469,9 +474,10 @@
                     e.preventDefault();
                     const target = document.querySelector(this.getAttribute('href'));
                     if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
+                        const offsetTop = target.offsetTop - 70; // Account for fixed navbar
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
                         });
                     }
                 });
