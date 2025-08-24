@@ -764,9 +764,9 @@
                         <a href="1aas (iPosterSessions - an aMuze! Interactive system).pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
-                    </div>
-                </div>
-            </div>
+                    <//div>
+                <//div>
+            <//div>
 
 
             <!-- Research Paper Example -->
