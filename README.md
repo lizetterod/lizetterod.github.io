@@ -699,7 +699,7 @@
                 <i class="fas fa-file-alt"></i>
                 <h3>Curriculum Vitae</h3>
                 <p>Comprehensive academic CV including research experience, publications, presentations, and academic achievements in astrophysics and computational physics.</p>
-                <a href="documents/Lizette_Rodriguez_CV.pdf" class="download-btn" target="_blank">
+                <a href="Lizette_Rodriguez_CV-7.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download CV
                 </a>
             </div>
@@ -708,7 +708,7 @@
                 <i class="fas fa-briefcase"></i>
                 <h3>Professional Resume</h3>
                 <p>Industry-focused resume highlighting technical skills, research projects, programming experience, and leadership roles suitable for career opportunities.</p>
-                <a href="documents/Lizette_Rodriguez_Resume.pdf" class="download-btn" target="_blank">
+                <a href="Lizette_Rodriguez_RESUME-7.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download Resume
                 </a>
             </div>
