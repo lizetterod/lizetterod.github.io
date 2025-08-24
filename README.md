@@ -587,7 +587,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div <img src="Users/lizetterodriguez/Downloads/lizette.rodriguez@my.utsa.edu-89f3370a_2.jpg" alt="Lizette Rodriguez"> </div>
+                <div <img src="lizette.rodriguez.jpg" alt="Lizette Rodriguez"> </div>
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
