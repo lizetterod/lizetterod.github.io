@@ -869,6 +869,7 @@
                 </div>
             </div>
             
+        <div class="media-grid">
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
                     <img src="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" alt="Astrophysics Research Presentaion">
