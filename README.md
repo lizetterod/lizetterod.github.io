@@ -785,6 +785,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             
         <div class="media-grid">
             <!-- Research Paper Example -->
@@ -910,6 +911,7 @@
                     </div>
                 </div>
             </div>
+            
     </section>
 
     <!-- Contact Section -->
