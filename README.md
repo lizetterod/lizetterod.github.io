@@ -889,16 +889,13 @@
 
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="Adobe presentation.pdf" alt="spring poster">
+                    <img src="TemplateFinalPresentation.pdf" alt="microwave presentation">
                 </div>
                 <div class="media-content">
-                    <h3>Astronomy 3013 AI Assignment 2</h3>
+                    <h3>Microwave and Millimeterwave Systems: Propagation studies at 5G Wireless Bands</h3>
                     <div class="media-type">Presentation</div>
-                    <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
-                        <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" onclick="openModal('https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series')">
-                            <i class="fas fa-eye"></i> View
-                        </a>
-                        <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
+                    <p>"A final presentation summarizing all the results from a multiphase experiment focused on radio astronomy interference. Presented at the University of Puerto Rico, Mayaguez, August 2023. "</p>
+                        <a href="TemplateFinalPresentation.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
