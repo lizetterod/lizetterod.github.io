@@ -370,9 +370,9 @@
             </svg>
         </div>
         <div class="hero-content">
-            <h1>Your Name</h1>
+            <h1>Lizette Rodriguez</h1>
             <p>Physics Undergraduate | Astronomy Enthusiast | Future Researcher</p>
-            <a href="#about" class="cta-button">Explore My Universe</a>
+            <a href="#about" class="cta-button">Learn More!</a>
         </div>
     </section>
 
@@ -400,20 +400,25 @@
         <h2 class="section-title">Research & Projects</h2>
         <div class="research-grid">
             <div class="research-card">
-                <h3>Stellar Classification Analysis</h3>
-                <p>Developing machine learning algorithms to classify stellar spectra and identify unique stellar populations in our galaxy. This project combines computational physics with observational astronomy data.</p>
+                <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
+                <p>Developed and tested clustering algorithms (e.g., DBSCAN) to analyze X-ray emission morphologies in planetary nebulae
+                and advance classification methods</p>
             </div>
             <div class="research-card">
-                <h3>Exoplanet Transit Modeling</h3>
-                <p>Creating predictive models for exoplanet transit events using Python and astronomical databases. Focus on identifying potentially habitable worlds in nearby star systems.</p>
+                <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
+                <p>Conducted behavioral analysis of 5G wireless bands using signal generators, spectrum analyzers, and HyperLog® antennas. Investigated wave propagation characteristics at millimeter-wave frequencies under varying environmental conditions.</p>
             </div>
             <div class="research-card">
-                <h3>Dark Matter Simulation</h3>
-                <p>Undergraduate research project simulating dark matter interactions in galactic halos using N-body computational methods and comparing results with observational data.</p>
+                <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
+                <p> A developed and tested parameter study of clustering algorithms (e.g., DBSCAN) to analyze X-ray emission morphologies in planetary nebulae and to best classify X-ray observations.</p>
             </div>
             <div class="research-card">
-                <h3>Radio Astronomy Data Analysis</h3>
-                <p>Processing and analyzing radio telescope data to study pulsars and their magnetic field structures. Collaboration with the local radio astronomy facility.</p>
+                <h3>Open Cluster Project</h3>
+                <p>The Open Cluster Project, also called the OC project, is an academic effort that uses HDBSCAN to determine star membership in 25 open clusters from NASA’s Gaia mission.</p>
+            </div>
+            <div class="research-card">
+                <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker</h3>
+                <p>Co-authored MEEPsat, a CubeSat mission proposal submitted to NASA, in collaboration with three UTSA student organizations; designed to monitor methane emissions over the North Pole and raise public awareness of climate change.</p>
             </div>
         </div>
     </section>
