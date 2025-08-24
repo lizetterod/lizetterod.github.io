@@ -700,7 +700,7 @@
                 <i class="fas fa-file-alt"></i>
                 <h3>Curriculum Vitae</h3>
                 <p>Comprehensive academic CV including research experience, publications, presentations, and academic achievements in astrophysics and computational physics.</p>
-                <a href="documents/Lizette_Rodriguez_CV.pdf" class="download-btn" target="_blank">
+                <a href="Lizette_Rodriguez_CV-7.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download CV
                 </a>
             </div>
