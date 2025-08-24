@@ -758,6 +758,7 @@
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Poster</div>
                     <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
+                    <div class="media-actions">
                         <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
@@ -774,6 +775,7 @@
                     <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
                     <div class="media-type">Research Poster</div>
                     <p>Computational astrophysics poster presenting behavioral analysis of 5G wireless bands using signal generators, spectrum analyzers, and HyperLog® antennas. Presented at American Astronomical Society (AAS) Symposium January 2024."</p>
+                    <div class="media-actions">
                         <a href="https://aas243-aas.ipostersessions.com/Default.aspx?s=7D-A1-6B-81-B9-9D-83-63-AE-22-7F-7E-4D-B9-C2-38" class="media-btn view-btn" onclick="openModal('media/microwave-poster.jpg')">
                             <i class="fas fa-eye"></i> View
                         </a>
@@ -781,6 +783,7 @@
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
+                </div>
             </div>
             
         <div class="media-grid">
@@ -809,6 +812,7 @@
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Paper</div>
                     <p>This Research paper investigated wave propagation characteristics at millimeter-wave frequencies under varying environmental conditions. </p>
+                    <div class="media-actions">
                         <a href="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
@@ -824,10 +828,12 @@
                     <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker</h3>
                     <div class="media-type">Research Paper</div>
                     <p>Co-authored MEEPsat, a CubeSat mission proposal submitted to NASA, in collaboration with three UTSA student organizations; designed to monitor methane emissions over the North Pole and raise public awareness of climate change. </p>
+                    <div class="media-actions">
                         <a href="Final Proposal Draft.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
+                </div>
             <!-- Add more media items as needed -->
         </div>
 
@@ -859,6 +865,7 @@
                     <h3>Astronomy 3013 AI Assignment 2</h3>
                     <div class="media-type">Presentation</div>
                     <p>"A presentation given to educators during the Digital Literacy Cafe on the impact of AI and its implications in astronomy. Presented at the Digital Literacy Cafe showcase in April 2025."</p>
+                    <div class="media-actions">
                         <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" onclick="openModal('https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series')">
                             <i class="fas fa-eye"></i> View
                         </a>
@@ -896,6 +903,7 @@
                     <h3>Microwave and Millimeterwave Systems: Propagation studies at 5G Wireless Bands</h3>
                     <div class="media-type">Presentation</div>
                     <p>"A final presentation summarizing all the results from a multiphase experiment focused on radio astronomy interference. Presented at the University of Puerto Rico, Mayaguez, August 2023. "</p>
+                    <div class="media-actions">
                         <a href="TemplateFinalPresentation.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
