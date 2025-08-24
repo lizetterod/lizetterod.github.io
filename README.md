@@ -816,6 +816,22 @@
                     </div>
                 </div>
             </div>
+
+            <div class="media-item" data-category="papers">
+                <div class="media-preview">
+                    <img src="Final Proposal Draft.pdf" alt="microwave poster">
+                </div>
+                <div class="media-content">
+                    <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker</h3>
+                    <div class="media-type">Research Paper</div>
+                    <p>Co-authored MEEPsat, a CubeSat mission proposal submitted to NASA, in collaboration with three UTSA student organizations; designed to monitor methane emissions over the North Pole and raise public awareness of climate change. </p>
+                        <a href="Final Proposal Draft.pdf" class="media-btn download-btn-small" target="_blank">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <!-- Add more media items as needed -->
         </div>
     </section>
