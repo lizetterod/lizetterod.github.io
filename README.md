@@ -958,16 +958,81 @@
             }
         }
 
-        // Portfolio filtering
-        function initPortfolioFilter() {
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            const mediaItems = document.querySelectorAll('.media-item');
+// Portfolio filtering - Complete version
+function initPortfolioFilter() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const mediaItems = document.querySelectorAll('.media-item');
 
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    // Remove active class from all buttons
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    // Add active class to clicked button
-                    btn.classList.add('active');
-                    
-                    const filter = btn.getAttribute('data-filter');
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            btn.classList.add('active');
+            
+            const filter = btn.getAttribute('data-filter');
+            
+            // Filter media items
+            mediaItems.forEach(item => {
+                if (filter === 'all') {
+                    item.style.display = 'block';
+                } else {
+                    const category = item.getAttribute('data-category');
+                    if (category === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
+}
+
+// Make sure to call the function when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    createStars();
+    initPortfolioFilter(); // Add this line
+    
+    // Add smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    
+    // Modal functionality for viewing images
+    const modal = document.getElementById('mediaModal');
+    const modalImg = document.getElementById('modalImage');
+    const closeModal = document.querySelector('.close-modal');
+    
+    // Add click event to all view buttons
+    document.querySelectorAll('.view-btn').forEach(btn => {
+        if (btn.getAttribute('href').includes('.png') || btn.getAttribute('href').includes('.jpg') || btn.getAttribute('href').includes('.pdf')) {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                modal.style.display = 'block';
+                modalImg.src = this.getAttribute('href');
+            });
+        }
+    });
+    
+    // Close modal when clicking the X
+    closeModal.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+    
+    // Close modal when clicking outside of it
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
