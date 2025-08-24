@@ -854,7 +854,7 @@
 
 
 
-            <div class="media-item" data-category="posters">
+            <div class="media-item" data-category="presentations">
                 <div class="media-preview">
                     <img src="1Poster_Template.pdf" alt="spring poster">
                 </div>
