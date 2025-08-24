@@ -923,13 +923,13 @@
             <div class="contact-item">
                 <i class="fab fa-linkedin"></i>
                 <h3>LinkedIn</h3>
-                <p>Connect with me professionally</p>
+                <p>www.linkedin.com/in/lizette-rodriguez-295b5b24b</p>
             </div>
             
             <div class="contact-item">
                 <i class="fab fa-github"></i>
                 <h3>GitHub</h3>
-                <p>View my code repositories</p>
+                <p>lizetterod</p>
             </div>
         </div>
     </section>
