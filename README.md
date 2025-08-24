@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -100,7 +99,76 @@
     .nav-links a:hover::after {
         width: 100%;
     }
+    
+    /* Hero Section */
+    .hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
 
+    .hero-content {
+        max-width: 800px;
+        z-index: 2;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(45deg, #ffffff, #8a2be2, #4169e1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: fadeInUp 1s ease-out;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+        animation: fadeInUp 1s ease-out 0.3s both;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: linear-gradient(45deg, #8a2be2, #4169e1);
+        text-decoration: none;
+        color: white;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+        animation: fadeInUp 1s ease-out 0.6s both;
+    }
+
+    .cta-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(138, 43, 226, 0.4);
+    }
+
+    /* Constellation background */
+    .constellation {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        height: 600px;
+        opacity: 0.1;
+    }
+
+    .constellation svg {
+        width: 100%;
+        height: 100%;
+        animation: rotate 60s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
     /* Sections */
     section {
         padding: 5rem 2rem;
@@ -116,6 +184,97 @@
         background: linear-gradient(45deg, #8a2be2, #4169e1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    /* About Section */
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: linear-gradient(45deg, #8a2be2, #4169e1);
+        padding: 4px;
+        margin: 0 auto;
+    }
+
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .profile-placeholder {
+        width: 100%;
+        height: 100%;
+        background: #1a1a2e;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        color: #8a2be2;
+    }
+
+    /* Research Cards */
+    .research-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .research-card {
+        background: rgba(26, 26, 46, 0.6);
+        border: 1px solid rgba(138, 43, 226, 0.3);
+        border-radius: 15px;
+        padding: 2rem;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .research-card:hover {
+        transform: translateY(-10px);
+        border-color: rgba(138, 43, 226, 0.8);
+        box-shadow: 0 15px 40px rgba(138, 43, 226, 0.2);
+    }
+
+    .research-card h3 {
+        color: #8a2be2;
+        margin-bottom: 1rem;
+    }
+
+    /* Contact Section */
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .contact-item {
+        padding: 2rem;
+        background: rgba(26, 26, 46, 0.6);
+        border-radius: 15px;
+        border: 1px solid rgba(138, 43, 226, 0.3);
+        transition: all 0.3s ease;
+    }
+
+    .contact-item:hover {
+        border-color: rgba(138, 43, 226, 0.8);
+        transform: translateY(-5px);
+    }
+
+    .contact-item i {
+        font-size: 2rem;
+        color: #8a2be2;
+        margin-bottom: 1rem;
     }
 
     /* CV/Resume Section */
