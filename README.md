@@ -709,7 +709,7 @@
                 <i class="fas fa-briefcase"></i>
                 <h3>Professional Resume</h3>
                 <p>Industry-focused resume highlighting technical skills, research projects, programming experience, and leadership roles suitable for career opportunities.</p>
-                <a href="documents/Lizette_Rodriguez_Resume.pdf" class="download-btn" target="_blank">
+                <a href="Lizette_Rodriguez_RESUME-7.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download Resume
                 </a>
             </div>
