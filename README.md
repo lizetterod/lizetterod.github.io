@@ -782,7 +782,6 @@
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
-                </div>
             </div>
 
             <!-- Research Paper Example -->
@@ -799,7 +798,6 @@
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
-                </div>
             </div>
             
             <div class="media-item" data-category="papers">
