@@ -911,9 +911,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
+            </section>
 
     <!-- Contact Section -->
     <section id="contact" class="fade-in">
