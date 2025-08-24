@@ -756,7 +756,7 @@
                     <img src="1Poster_Template.pdf" alt="spring poster">
                 </div>
                 <div class="media-content">
-                    <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
+                    <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Poster</div>
                     <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
                         <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
