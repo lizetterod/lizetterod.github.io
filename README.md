@@ -788,7 +788,7 @@
             <!-- Research Paper Example -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" alt="spring poster">
+                    <img src="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" alt="spring paper">
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
@@ -804,14 +804,13 @@
             
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" alt="spring poster">
+                    <img src="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" alt="microwave poster">
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Paper</div>
-                    <p>The paramter study resrach paper that reviews the results of indepth anyaiisi of the most robust parameters of DBSCAN clustering analysis of Chandra X-ray observations. </p>
-                    <div class="media-actions">
-                        <a href="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" class="media-btn download-btn-small" target="_blank">
+                    <p>This Research paper investigated wave propagation characteristics at millimeter-wave frequencies under varying environmental conditions. </p>
+                        <a href="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
