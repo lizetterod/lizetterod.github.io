@@ -737,12 +737,12 @@
                 <div class="media-content">
                     <h3>NGC 6543: X-ray Analysis of the Cat's Eye Nebula</h3>
                     <div class="media-type">Research Poster</div>
-                    <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at the UTSA Physics Research Symposium 2024.</p>
+                    <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at American Astronomical Society (AAS) Symposium January 2024.</p>
                     <div class="media-actions">
-                        <a href="#" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
+                        <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
                             <i class="fas fa-eye"></i> View
                         </a>
-                        <a href="media/cat-eye-nebula-poster.pdf" class="media-btn download-btn-small" target="_blank">
+                        <a href="[media/cat-eye-nebula-poster.pdf](https://aas245-aas.ipostersessions.com/Default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&pdfprint=true&guestview=true)" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
