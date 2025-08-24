@@ -791,14 +791,11 @@
                     <div class="media-placeholder"><i class="fas fa-file-pdf"></i></div>
                 </div>
                 <div class="media-content">
-                    <h3>Open Cluster Analysis with Gaia Data</h3>
+                    <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Paper</div>
-                    <p>Statistical analysis of stellar clusters using dimensionality reduction techniques and machine learning algorithms applied to Gaia DR3 data.</p>
+                    <p>The paramter study resrach paper that reviews the results of indepth anyaiisi of the most robust parameters of DBSCAN clustering analysis of Chandra X-ray observations. </p>
                     <div class="media-actions">
-                        <a href="papers/open-cluster-analysis.pdf" class="media-btn view-btn" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> View
-                        </a>
-                        <a href="papers/open-cluster-analysis.pdf" class="media-btn download-btn-small" target="_blank">
+                        <a href="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
