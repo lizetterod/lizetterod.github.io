@@ -725,10 +725,9 @@
             <button class="filter-btn" data-filter="posters">Posters</button>
             <button class="filter-btn" data-filter="papers">Papers</button>
             <button class="filter-btn" data-filter="presentations">Presentations</button>
-            <button class="filter-btn" data-filter="visualizations">Visualizations</button>
         </div>
 
-        <div class="media-grid">
+        
             <!-- Research Poster Example -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
