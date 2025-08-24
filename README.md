@@ -803,7 +803,7 @@
             
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" alt="microwave poster">
+                    <img src="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" alt="microwave paper">
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
@@ -818,7 +818,7 @@
 
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Final Proposal Draft.pdf" alt="microwave poster">
+                    <img src="Final Proposal Draft.pdf" alt="meep paper">
                 </div>
                 <div class="media-content">
                     <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker</h3>
@@ -853,16 +853,16 @@
 
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="Adobe presentation.pdf" alt="spring poster">
+                    <img src="Adobe presentation.pdf" alt="adobe presentation">
                 </div>
                 <div class="media-content">
                     <h3>Astronomy 3013 AI Assignment 2</h3>
                     <div class="media-type">Presentation</div>
-                    <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
+                    <p>"A presentation given to educators during the Digital Literacy Cafe on the impact of AI and its implications in astronomy. Presented at the Digital Literacy Cafe showcase in April 2025."</p>
                         <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" onclick="openModal('https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series')">
                             <i class="fas fa-eye"></i> View
                         </a>
-                        <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
+                        <a href="Adobe presentation.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
@@ -871,14 +871,14 @@
             
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="1CREATE_PRES_24.pdf" alt="Cat's Eye Nebula Research Presentaion">
+                    <img src="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" alt="Astrophysics Research Presentaion">
                 </div>
                 <div class="media-content">
-                    <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
+                    <h3>HOW MY WORK IN ASTROPHYSICS TAUGHT ME EVERYTHING I KNOW</h3>
                     <div class="media-type">Presentation</div>
-                    <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at Center for Astrophysics August (CfA) 2025.</p>
+                    <p>A comprehensive timeline of all past REU Experinces. Presented at the Roadrunner Experince Showcase UTSA November 2024.</p>
                     <div class="media-actions">
-                        <a href="1CREATE_PRES_24.pdf" class="media-btn download-btn-small" target="_blank">
+                        <a href="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
