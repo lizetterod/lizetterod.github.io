@@ -749,6 +749,26 @@
                 </div>
             </div>
 
+
+            <div class="media-item" data-category="posters">
+                <div class="media-preview">
+                    <img src="Screenshot 2025-08-23 at 23.48.52.png" alt="Microwave Research Poster">
+                </div>
+                <div class="media-content">
+                    <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
+                    <div class="media-type">Research Poster</div>
+                    <p>Computational astrophysics poster presenting behavioral analysis of 5G wireless bands using signal generators, spectrum analyzers, and HyperLog® antennas.">
+                        <a href="[https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true](https://aas243-aas.ipostersessions.com/Default.aspx?s=7D-A1-6B-81-B9-9D-83-63-AE-22-7F-7E-4D-B9-C2-38)" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
+                            <i class="fas fa-eye"></i> View
+                        </a>
+                        <a href="1aas (iPosterSessions - an aMuze! Interactive system).pdf" class="media-btn download-btn-small" target="_blank">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <!-- Research Paper Example -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
