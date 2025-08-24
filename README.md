@@ -380,8 +380,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div <img src="Users/lizetterodriguez/Downloads/lizette.rodriguez@my.utsa.edu-89f3370a_2.jpg" alt="Lizette Rodriguez"> </div>
-                <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
+            <img src="Users/lizetterodriguez/Downloads/lizette.rodriguez@my.utsa.edu-89f3370a_2.jpg" alt="Lizette Rodriguez">
             </div>
             <div>
                 <p>Lizette Rodriguez is a fourth-year student at UTSA, majoring in physics with a minor in astronomy. She conducts research in planetary nebulae, with her latest focus on utilizing the Chandra X-ray Telescope to perform computational astrophysics on observation NGC 6543, also known as the Cat’s Eye Nebula. Her primary job is to determine how to best use a clustering algorithm called DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to analyze high-energy X-rays emitted from the Cat’s Eye Nebula. 
