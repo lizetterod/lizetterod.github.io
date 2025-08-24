@@ -727,7 +727,7 @@
             <button class="filter-btn" data-filter="presentations">Presentations</button>
         </div>
 
-        
+        <div class="media-grid">
             <!-- Research Poster Example -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
@@ -782,7 +782,8 @@
                         </a>
                     </div>
             </div>
-
+            
+        <div class="media-grid">
             <!-- Research Paper Example -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
@@ -797,6 +798,7 @@
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
+                </div> 
             </div>
             
             <div class="media-item" data-category="papers">
@@ -826,7 +828,7 @@
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
-
+                </div>
             <!-- Add more media items as needed -->
         </div>
     </section>
