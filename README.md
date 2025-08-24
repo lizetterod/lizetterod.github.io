@@ -911,6 +911,7 @@
                         </a>
                     </div>
                 </div>
+            </div>
             </section>
 
     <!-- Contact Section -->
