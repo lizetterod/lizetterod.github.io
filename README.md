@@ -726,7 +726,6 @@
             <button class="filter-btn" data-filter="posters">Posters</button>
             <button class="filter-btn" data-filter="papers">Papers</button>
             <button class="filter-btn" data-filter="presentations">Presentations</button>
-            <button class="filter-btn" data-filter="visualizations">Visualizations</button>
         </div>
 
         <div class="media-grid">
@@ -753,7 +752,7 @@
             <!-- UTSA Spring Research Poster -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-image"></i></div>
+                    <img src="1Poster_Template.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
@@ -790,7 +789,7 @@
             <!-- Research Paper: Clustering Algorithms -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-file-pdf"></i></div>
+                    <img src="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
@@ -807,7 +806,7 @@
             <!-- Research Paper: Microwave Systems -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-file-pdf"></i></div>
+                    <img src="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
@@ -824,7 +823,7 @@
             <!-- Research Paper: MEEPsat -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-satellite"></i></div>
+                    <img src="Final Proposal Draft.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker)</h3>
@@ -841,7 +840,7 @@
             <!-- Presentation: CfA Research -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-presentation"></i></div>
+                    <img src="1CREATE_PRES_24.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
@@ -858,7 +857,7 @@
             <!-- Presentation: AI in Astronomy -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-robot"></i></div>
+                    <img src="Adobe presentation.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Astronomy 3013 AI Assignment 2</h3>
@@ -878,7 +877,7 @@
             <!-- Presentation: REU Experiences -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-graduation-cap"></i></div>
+                    <img src="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>HOW MY WORK IN ASTROPHYSICS TAUGHT ME EVERYTHING I KNOW</h3>
@@ -895,7 +894,7 @@
             <!-- Presentation: Microwave Final -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-signal"></i></div>
+                    <img src="TemplateFinalPresentation.pdf" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>Microwave and Millimeter-wave Systems: Propagation studies at 5G Wireless Bands</h3>
