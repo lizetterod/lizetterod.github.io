@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Physics & Astronomy</title>
+    <title> Lizette Rodriguez - Physics & Astronomy Undergraduate </title>
     <style>
         * {
             margin: 0;
@@ -380,11 +380,15 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div class="profile-placeholder">⭐</div>
+                <div <img src="Users/lizetterodriguez/Downloads/lizette.rodriguez@my.utsa.edu-89f3370a_2.jpg" alt="Lizette Rodriguez"> </div>
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
-                <p>I'm a passionate physics undergraduate with a deep fascination for the cosmos. My journey in astronomy began with late-night stargazing sessions and has evolved into rigorous academic pursuit of understanding the universe's fundamental principles.</p>
+                <p>Lizette Rodriguez is a fourth-year student at UTSA, majoring in physics with a minor in astronomy. She conducts research in planetary nebulae, with her latest focus on utilizing the Chandra X-ray Telescope to perform computational astrophysics on observation NGC 6543, also known as the Cat’s Eye Nebula. Her primary job is to determine how to best use a clustering algorithm called DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to analyze high-energy X-rays emitted from the Cat’s Eye Nebula. 
+                In addition to this, Lizette is actively developing a research pipeline centered on open cluster analysis with Gaia data, where she applies statistical methods, dimensionality reduction techniques, and visualization tools to improve the census of local clusters. This work builds on her broader interest in algorithmic applications to astrophysical datasets and connects computational theory with observational evidence.
+                In the past, she has participated in other research involving astrophysical radio applications, which included using instrumentation such as antennas and SDRs to better understand phenomena like interference. This experience also allowed her to contribute to a student-led NASA initiative program named CubeSat, a unique collaboration between multiple student organizations, one of which she currently serves as an officer.
+                Beyond research, Lizette volunteers for outreach with SPS (Society of Physics Students), where she shares her passion for astronomy and works to make science more accessible to the community.
+                </p>
                 <br>
                 <p>Currently pursuing my degree in Physics with a focus on astrophysics, I'm particularly interested in stellar evolution, exoplanet detection, and cosmological phenomena. I believe that through scientific inquiry, we can unlock the secrets of the universe and expand humanity's understanding of our place in the cosmos.</p>
                 <br>
