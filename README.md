@@ -732,8 +732,7 @@
             <!-- Research Poster Example -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
-                    <img src="media/cat-eye-nebula-poster.jpg" alt="Cat's Eye Nebula Research Poster">
-                    <!-- <div class="media-placeholder"><i class="fas fa-image"></i></div> -->
+                    <img src="Screenshot 2025-08-23 at 20.52.25.png" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
                     <h3>NGC 6543: X-ray Analysis of the Cat's Eye Nebula</h3>
