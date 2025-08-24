@@ -839,7 +839,7 @@
                 </div>
                 <div class="media-content">
                     <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
-                    <div class="media-type">Research Poster</div>
+                    <div class="media-type">Presentation</div>
                     <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at Center for Astrophysics August (CfA) 2025.</p>
                     <div class="media-actions">
                         <a href="1CREATE_PRES_24.pdf" class="media-btn download-btn-small" target="_blank">
@@ -853,12 +853,15 @@
 
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="1Poster_Template.pdf" alt="spring poster">
+                    <img src="Adobe presentation.pdf" alt="spring poster">
                 </div>
                 <div class="media-content">
-                    <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
-                    <div class="media-type">Research Poster</div>
+                    <h3>Astronomy 3013 AI Assignment 2</h3>
+                    <div class="media-type">Presentation</div>
                     <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
+                        <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" onclick="openModal('https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series')">
+                            <i class="fas fa-eye"></i> View
+                        </a>
                         <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
