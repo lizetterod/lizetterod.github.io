@@ -835,6 +835,7 @@
                         </a>
                     </div>
                 </div>
+            </div>
             <!-- Add more media items as needed -->
         </div>
 
