@@ -910,8 +910,6 @@
             </div>
         </div>
     </section>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="fade-in">
