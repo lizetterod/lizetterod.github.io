@@ -742,7 +742,7 @@
                         <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
                             <i class="fas fa-eye"></i> View
                         </a>
-                        <a href="[media/cat-eye-nebula-poster.pdf](https://aas245-aas.ipostersessions.com/Default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&pdfprint=true&guestview=true)" class="media-btn download-btn-small" target="_blank">
+                        <a href="aas (iPosterSessions - an aMuze! Interactive system).pdf">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
