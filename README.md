@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -423,22 +421,17 @@
             <div class="contact-item">
                 <div style="font-size: 2rem; color: #8a2be2; margin-bottom: 1rem;">✉️</div>
                 <h3>Email</h3>
-                <p>your.email@university.edu</p>
+                <p>lizette.rodriguez@my.utsa.edu</p>
             </div>
             <div class="contact-item">
                 <div style="font-size: 2rem; color: #8a2be2; margin-bottom: 1rem;">🔗</div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/yourname</p>
+                <p>www.linkedin.com/in/lizette-rodriguez-295b5b24b</p>
             </div>
             <div class="contact-item">
                 <div style="font-size: 2rem; color: #8a2be2; margin-bottom: 1rem;">📚</div>
-                <h3>ORCID</h3>
-                <p>orcid.org/0000-0000-0000-0000</p>
-            </div>
-            <div class="contact-item">
-                <div style="font-size: 2rem; color: #8a2be2; margin-bottom: 1rem;">🌟</div>
-                <h3>Research Gate</h3>
-                <p>researchgate.net/profile/YourName</p>
+                <h3>GitHub</h3>
+                <p>lizetterod</p>
             </div>
         </div>
     </section>
