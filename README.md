@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -99,7 +100,7 @@
     .nav-links a:hover::after {
         width: 100%;
     }
-    
+
     /* Hero Section */
     .hero {
         height: 100vh;
@@ -168,7 +169,7 @@
         from { transform: rotate(0deg); }
         to { transform: rotate(360deg); }
     }
-    
+
     /* Sections */
     section {
         padding: 5rem 2rem;
@@ -481,23 +482,6 @@
         transform: translateY(-2px);
     }
 
-    /* Animations */
-    @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .fade-in {
-        opacity: 0;
-        animation: fadeInUp 1s ease-out forwards;
-    }
-
     /* Modal for viewing media */
     .media-modal {
         display: none;
@@ -542,8 +526,38 @@
         border-radius: 10px;
     }
 
+    /* Animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fade-in {
+        opacity: 0;
+        animation: fadeInUp 1s ease-out forwards;
+    }
+
     /* Responsive Design */
     @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        
+        .nav-links {
+            display: none;
+        }
+        
+        .about-content {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        
         .cv-section,
         .media-grid {
             grid-template-columns: 1fr;
@@ -561,6 +575,19 @@
         section {
             padding: 3rem 1rem;
         }
+    }
+
+    /* Scroll indicator */
+    .scroll-indicator {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, #8a2be2, #4169e1);
+        transform-origin: left;
+        transform: scaleX(0);
+        z-index: 1001;
     }
     </style>
 </head>
@@ -582,16 +609,51 @@
         </div>
     </nav>
 
-    <!-- About Me Section -->
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Lizette Rodriguez</h1>
+            <p>Astrophysics Research Student | Computational Physics | Space Science</p>
+            <a href="#about" class="cta-button">Explore My Research</a>
+        </div>
+        
+        <!-- Constellation background -->
+        <div class="constellation">
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                        <feMerge> 
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+                <!-- Constellation lines -->
+                <line x1="50" y1="80" x2="120" y2="60" stroke="#8a2be2" stroke-width="1" opacity="0.5"/>
+                <line x1="120" y1="60" x2="180" y2="100" stroke="#8a2be2" stroke-width="1" opacity="0.5"/>
+                <line x1="180" y1="100" x2="220" y2="150" stroke="#8a2be2" stroke-width="1" opacity="0.5"/>
+                <line x1="220" y1="150" x2="280" y2="120" stroke="#8a2be2" stroke-width="1" opacity="0.5"/>
+                <!-- Stars -->
+                <circle cx="50" cy="80" r="2" fill="white" filter="url(#glow)"/>
+                <circle cx="120" cy="60" r="3" fill="white" filter="url(#glow)"/>
+                <circle cx="180" cy="100" r="2" fill="white" filter="url(#glow)"/>
+                <circle cx="220" cy="150" r="4" fill="white" filter="url(#glow)"/>
+                <circle cx="280" cy="120" r="2" fill="white" filter="url(#glow)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
     <section id="about" class="fade-in">
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <div <img src="lizette.rodriguez.jpg" alt="Lizette Rodriguez"> </div>
+                <img src="images/profile-photo.jpg" alt="Lizette Rodriguez">
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
-                <p>Lizette Rodriguez is a fourth-year student at UTSA, majoring in physics with a minor in astronomy. She conducts research in planetary nebulae, with her latest focus on utilizing the Chandra X-ray Telescope to perform computational astrophysics on observation NGC 6543, also known as the Cat’s Eye Nebula. Her primary job is to determine how to best use a clustering algorithm called DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to analyze high-energy X-rays emitted from the Cat’s Eye Nebula. 
+                <p>Lizette Rodriguez is a fourth-year student at UTSA, majoring in physics with a minor in astronomy. She conducts research in planetary nebulae, with her latest focus on utilizing the Chandra X-ray Telescope to perform computational astrophysics on observation NGC 6543, also known as the Cat's Eye Nebula. Her primary job is to determine how to best use a clustering algorithm called DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to analyze high-energy X-rays emitted from the Cat's Eye Nebula. 
                 In addition to this, Lizette is actively developing a research pipeline centered on open cluster analysis with Gaia data, where she applies statistical methods, dimensionality reduction techniques, and visualization tools to improve the census of local clusters. This work builds on her broader interest in algorithmic applications to astrophysical datasets and connects computational theory with observational evidence.
                 In the past, she has participated in other research involving astrophysical radio applications, which included using instrumentation such as antennas and SDRs to better understand phenomena like interference. This experience also allowed her to contribute to a student-led NASA initiative program named CubeSat, a unique collaboration between multiple student organizations, one of which she currently serves as an officer.
                 Beyond research, Lizette volunteers for outreach with SPS (Society of Physics Students), where she shares her passion for astronomy and works to make science more accessible to the community.
@@ -603,7 +665,33 @@
             </div>
         </div>
     </section>
-    
+
+    <!-- Research Section -->
+    <section id="research" class="fade-in">
+        <h2 class="section-title">Research</h2>
+        <div class="research-grid">
+            <div class="research-card">
+                <h3>X-ray Analysis of NGC 6543</h3>
+                <p>Utilizing the Chandra X-ray Telescope to perform computational astrophysics on the Cat's Eye Nebula, applying DBSCAN clustering algorithms to analyze high-energy X-ray emissions and understand the complex structure of this planetary nebula.</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Open Cluster Analysis with Gaia Data</h3>
+                <p>Developing a comprehensive research pipeline using Gaia DR3 data to improve the census of local stellar clusters through statistical methods, dimensionality reduction techniques, and advanced visualization tools.</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Radio Astronomy & Interference Analysis</h3>
+                <p>Investigating astrophysical radio applications using SDRs and antenna arrays to better understand and mitigate interference in astronomical observations, contributing to improved data quality in radio astronomy.</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>CubeSat Mission Development</h3>
+                <p>Contributing to a student-led NASA initiative program involving the design and implementation of CubeSat missions, focusing on collaborative engineering solutions and space-based scientific instrumentation.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- CV & Resume Section -->
     <section id="cv" class="fade-in">
         <h2 class="section-title">CV & Resume</h2>
@@ -683,86 +771,30 @@
                 </div>
             </div>
 
-            <!-- Conference Presentation Example -->
-            <div class="media-item" data-category="presentations">
-                <div class="media-preview">
-                    <img src="media/cubesat-presentation-preview.jpg" alt="CubeSat Presentation Preview">
-                    <!-- <div class="media-placeholder"><i class="fas fa-presentation"></i></div> -->
-                </div>
-                <div class="media-content">
-                    <h3>CubeSat Mission: Student-Led Space Research</h3>
-                    <div class="media-type">Conference Presentation</div>
-                    <p>Presentation on the collaborative CubeSat project, covering mission objectives, payload design, and preliminary results from radio frequency analysis.</p>
-                    <div class="media-actions">
-                        <a href="presentations/cubesat-mission.pdf" class="media-btn view-btn" target="_blank">
-                            <i class="fas fa-play"></i> View
-                        </a>
-                        <a href="presentations/cubesat-mission.pdf" class="media-btn download-btn-small" target="_blank">
-                            <i class="fas fa-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <!-- Add more media items as needed -->
+        </div>
+    </section>
 
-            <!-- Data Visualization Example -->
-            <div class="media-item" data-category="visualizations">
-                <div class="media-preview">
-                    <img src="media/stellar-evolution-viz.jpg" alt="Stellar Evolution Visualization">
-                    <!-- <div class="media-placeholder"><i class="fas fa-chart-line"></i></div> -->
-                </div>
-                <div class="media-content">
-                    <h3>Stellar Evolution Computational Model</h3>
-                    <div class="media-type">Data Visualization</div>
-                    <p>Interactive visualization of stellar evolution pathways using Python and matplotlib, showing mass-dependent evolutionary tracks on the H-R diagram.</p>
-                    <div class="media-actions">
-                        <a href="#" class="media-btn view-btn" onclick="openModal('media/stellar-evolution-viz.jpg')">
-                            <i class="fas fa-eye"></i> View
-                        </a>
-                        <a href="media/stellar-evolution-code.zip" class="media-btn download-btn-small">
-                            <i class="fas fa-code"></i> Code
-                        </a>
-                    </div>
-                </div>
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>lizette.rodriguez@my.utsa.edu</p>
             </div>
-
-            <!-- Additional items can be added here -->
-            <div class="media-item" data-category="papers">
-                <div class="media-preview">
-                    <div class="media-placeholder"><i class="fas fa-file-alt"></i></div>
-                </div>
-                <div class="media-content">
-                    <h3>Radio Interference Analysis in Astrophysical Observations</h3>
-                    <div class="media-type">Technical Report</div>
-                    <p>Analysis of radio frequency interference using Software Defined Radios (SDRs) and antenna arrays for improved astronomical observations.</p>
-                    <div class="media-actions">
-                        <a href="papers/radio-interference-analysis.pdf" class="media-btn view-btn" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> View
-                        </a>
-                        <a href="papers/radio-interference-analysis.pdf" class="media-btn download-btn-small" target="_blank">
-                            <i class="fas fa-download"></i> Download
-                        </a>
-                    </div>
-                </div>
+            
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Connect with me professionally</p>
             </div>
-
-            <div class="media-item" data-category="posters">
-                <div class="media-preview">
-                    <img src="media/sps-outreach-poster.jpg" alt="SPS Outreach Poster">
-                    <!-- <div class="media-placeholder"><i class="fas fa-users"></i></div> -->
-                </div>
-                <div class="media-content">
-                    <h3>Physics Outreach: Making Science Accessible</h3>
-                    <div class="media-type">Outreach Poster</div>
-                    <p>Educational poster showcasing SPS outreach activities and community engagement programs designed to promote physics education and astronomy awareness.</p>
-                    <div class="media-actions">
-                        <a href="#" class="media-btn view-btn" onclick="openModal('media/sps-outreach-poster.jpg')">
-                            <i class="fas fa-eye"></i> View
-                        </a>
-                        <a href="media/sps-outreach-poster.pdf" class="media-btn download-btn-small" target="_blank">
-                            <i class="fas fa-download"></i> Download
-                        </a>
-                    </div>
-                </div>
+            
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>View my code repositories</p>
             </div>
         </div>
     </section>
@@ -804,59 +836,3 @@
                     btn.classList.add('active');
                     
                     const filter = btn.getAttribute('data-filter');
-                    
-                    mediaItems.forEach(item => {
-                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                            item.style.display = 'block';
-                            item.style.animation = 'fadeInUp 0.5s ease-out';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-        }
-
-        // Modal functionality
-        function openModal(imageSrc) {
-            const modal = document.getElementById('mediaModal');
-            const modalImage = document.getElementById('modalImage');
-            modal.style.display = 'block';
-            modalImage.src = imageSrc;
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('mediaModal');
-            modal.style.display = 'none';
-        }
-
-        // Initialize everything when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            createStars();
-            initPortfolioFilter();
-            
-            // Close modal when clicking the X or outside the modal
-            document.querySelector('.close-modal').addEventListener('click', closeModal);
-            document.getElementById('mediaModal').addEventListener('click', function(e) {
-                if (e.target === this) {
-                    closeModal();
-                }
-            });
-
-            // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
-</body>
-</html>
