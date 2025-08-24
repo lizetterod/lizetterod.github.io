@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -648,7 +649,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <img src="lizette.rodriguez.jpg" alt="Lizette Rodriguez">
+                <img src="images/profile-photo.jpg" alt="Lizette Rodriguez">
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
@@ -699,7 +700,7 @@
                 <i class="fas fa-file-alt"></i>
                 <h3>Curriculum Vitae</h3>
                 <p>Comprehensive academic CV including research experience, publications, presentations, and academic achievements in astrophysics and computational physics.</p>
-                <a href="Lizette_Rodriguez_CV-7.pdf" class="download-btn" target="_blank">
+                <a href="documents/Lizette_Rodriguez_CV.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download CV
                 </a>
             </div>
@@ -708,7 +709,7 @@
                 <i class="fas fa-briefcase"></i>
                 <h3>Professional Resume</h3>
                 <p>Industry-focused resume highlighting technical skills, research projects, programming experience, and leadership roles suitable for career opportunities.</p>
-                <a href="Lizette_Rodriguez_RESUME-7.pdf" class="download-btn" target="_blank">
+                <a href="documents/Lizette_Rodriguez_Resume.pdf" class="download-btn" target="_blank">
                     <i class="fas fa-download"></i>Download Resume
                 </a>
             </div>
@@ -725,10 +726,11 @@
             <button class="filter-btn" data-filter="posters">Posters</button>
             <button class="filter-btn" data-filter="papers">Papers</button>
             <button class="filter-btn" data-filter="presentations">Presentations</button>
+            <button class="filter-btn" data-filter="visualizations">Visualizations</button>
         </div>
 
         <div class="media-grid">
-            <!-- Research Poster Example -->
+            <!-- AAS 2025 Research Poster -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
                     <img src="Screenshot 2025-08-23 at 20.52.25.png" alt="Cat's Eye Nebula Research Poster">
@@ -738,7 +740,7 @@
                     <div class="media-type">Research Poster</div>
                     <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at American Astronomical Society (AAS) Symposium January 2025.</p>
                     <div class="media-actions">
-                        <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
+                        <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" target="_blank">
                             <i class="fas fa-eye"></i> View
                         </a>
                         <a href="aas (iPosterSessions - an aMuze! Interactive system).pdf" class="media-btn download-btn-small" target="_blank">
@@ -748,16 +750,15 @@
                 </div>
             </div>
 
-
-
+            <!-- UTSA Spring Research Poster -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
-                    <img src="1Poster_Template.pdf" alt="spring poster">
+                    <div class="media-placeholder"><i class="fas fa-image"></i></div>
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Poster</div>
-                    <p>Computational astrophysics poster presenting a paramter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025. "</p>
+                    <p>Computational astrophysics poster presenting a parameter study of DBSCAN clustering analysis of Chandra X-ray observations. Presented at UTSA Research Symposium Spring 2025.</p>
                     <div class="media-actions">
                         <a href="1Poster_Template.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
@@ -766,7 +767,7 @@
                 </div>
             </div>
 
-
+            <!-- Microwave Research Poster -->
             <div class="media-item" data-category="posters">
                 <div class="media-preview">
                     <img src="Screenshot 2025-08-23 at 23.48.52.png" alt="Microwave Research Poster">
@@ -774,9 +775,9 @@
                 <div class="media-content">
                     <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
                     <div class="media-type">Research Poster</div>
-                    <p>Computational astrophysics poster presenting behavioral analysis of 5G wireless bands using signal generators, spectrum analyzers, and HyperLog® antennas. Presented at American Astronomical Society (AAS) Symposium January 2024."</p>
+                    <p>Computational astrophysics poster presenting behavioral analysis of 5G wireless bands using signal generators, spectrum analyzers, and HyperLog® antennas. Presented at American Astronomical Society (AAS) Symposium January 2024.</p>
                     <div class="media-actions">
-                        <a href="https://aas243-aas.ipostersessions.com/Default.aspx?s=7D-A1-6B-81-B9-9D-83-63-AE-22-7F-7E-4D-B9-C2-38" class="media-btn view-btn" onclick="openModal('media/microwave-poster.jpg')">
+                        <a href="https://aas243-aas.ipostersessions.com/Default.aspx?s=7D-A1-6B-81-B9-9D-83-63-AE-22-7F-7E-4D-B9-C2-38" class="media-btn view-btn" target="_blank">
                             <i class="fas fa-eye"></i> View
                         </a>
                         <a href="1aas (iPosterSessions - an aMuze! Interactive system).pdf" class="media-btn download-btn-small" target="_blank">
@@ -785,34 +786,33 @@
                     </div>
                 </div>
             </div>
-        </div>
-            
-        <div class="media-grid">
-            <!-- Research Paper Example -->
+
+            <!-- Research Paper: Clustering Algorithms -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" alt="spring paper">
+                    <div class="media-placeholder"><i class="fas fa-file-pdf"></i></div>
                 </div>
                 <div class="media-content">
                     <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
                     <div class="media-type">Research Paper</div>
-                    <p>The paramter study resrach paper that reviews the results of indepth anyaiisi of the most robust parameters of DBSCAN clustering analysis of Chandra X-ray observations. </p>
+                    <p>The parameter study research paper that reviews the results of in-depth analysis of the most robust parameters of DBSCAN clustering analysis of Chandra X-ray observations.</p>
                     <div class="media-actions">
                         <a href="Understanding_Clustering_Algorithm_Applied_to_Planetary_Nebulae-6.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
-                </div> 
+                </div>
             </div>
             
+            <!-- Research Paper: Microwave Systems -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" alt="microwave paper">
+                    <div class="media-placeholder"><i class="fas fa-file-pdf"></i></div>
                 </div>
                 <div class="media-content">
-                    <h3>Understanding Clustering Algorithm Applied to Planetary Nebulae</h3>
+                    <h3>Microwave and Millimeter-Wave Systems: Propagation Studies at 5G Wireless Bands</h3>
                     <div class="media-type">Research Paper</div>
-                    <p>This Research paper investigated wave propagation characteristics at millimeter-wave frequencies under varying environmental conditions. </p>
+                    <p>This research paper investigated wave propagation characteristics at millimeter-wave frequencies under varying environmental conditions.</p>
                     <div class="media-actions">
                         <a href="Microwave_and_Millimeter_Wave_Systems__Propagation_Studies_at_5G_Wireless_Bands.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
@@ -821,14 +821,15 @@
                 </div>
             </div>
 
+            <!-- Research Paper: MEEPsat -->
             <div class="media-item" data-category="papers">
                 <div class="media-preview">
-                    <img src="Final Proposal Draft.pdf" alt="meep paper">
+                    <div class="media-placeholder"><i class="fas fa-satellite"></i></div>
                 </div>
                 <div class="media-content">
-                    <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker</h3>
+                    <h3>MEEPsat (Methane Emissions from Permafrost Satellite Tracker)</h3>
                     <div class="media-type">Research Paper</div>
-                    <p>Co-authored MEEPsat, a CubeSat mission proposal submitted to NASA, in collaboration with three UTSA student organizations; designed to monitor methane emissions over the North Pole and raise public awareness of climate change. </p>
+                    <p>Co-authored MEEPsat, a CubeSat mission proposal submitted to NASA, in collaboration with three UTSA student organizations; designed to monitor methane emissions over the North Pole and raise public awareness of climate change.</p>
                     <div class="media-actions">
                         <a href="Final Proposal Draft.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
@@ -836,14 +837,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Add more media items as needed -->
-        </div>
 
-        <div class="media-grid">
-            <!-- Presentations Example -->
+            <!-- Presentation: CfA Research -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="1CREATE_PRES_24.pdf" alt="Cat's Eye Nebula Research Presentaion">
+                    <div class="media-placeholder"><i class="fas fa-presentation"></i></div>
                 </div>
                 <div class="media-content">
                     <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
@@ -857,18 +855,17 @@
                 </div>
             </div>
 
-
-
+            <!-- Presentation: AI in Astronomy -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="Adobe presentation.pdf" alt="adobe presentation">
+                    <div class="media-placeholder"><i class="fas fa-robot"></i></div>
                 </div>
                 <div class="media-content">
                     <h3>Astronomy 3013 AI Assignment 2</h3>
                     <div class="media-type">Presentation</div>
-                    <p>"A presentation given to educators during the Digital Literacy Cafe on the impact of AI and its implications in astronomy. Presented at the Digital Literacy Cafe showcase in April 2025."</p>
+                    <p>A presentation given to educators during the Digital Literacy Cafe on the impact of AI and its implications in astronomy. Presented at the Digital Literacy Cafe showcase in April 2025.</p>
                     <div class="media-actions">
-                        <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" onclick="openModal('https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series')">
+                        <a href="https://www.adobeforeducation.com/higher-ed/events/digital-literacy-cafe-series" class="media-btn view-btn" target="_blank">
                             <i class="fas fa-eye"></i> View
                         </a>
                         <a href="Adobe presentation.pdf" class="media-btn download-btn-small" target="_blank">
@@ -878,15 +875,15 @@
                 </div>
             </div>
             
-        <div class="media-grid">
+            <!-- Presentation: REU Experiences -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" alt="Astrophysics Research Presentaion">
+                    <div class="media-placeholder"><i class="fas fa-graduation-cap"></i></div>
                 </div>
                 <div class="media-content">
                     <h3>HOW MY WORK IN ASTROPHYSICS TAUGHT ME EVERYTHING I KNOW</h3>
                     <div class="media-type">Presentation</div>
-                    <p>A comprehensive timeline of all past REU Experinces. Presented at the Roadrunner Experince Showcase UTSA November 2024.</p>
+                    <p>A comprehensive timeline of all past REU experiences. Presented at the Roadrunner Experience Showcase UTSA November 2024.</p>
                     <div class="media-actions">
                         <a href="Force in Space Education Presentation in Black White Hand Drawn Lightly Textured Style-4.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
@@ -895,16 +892,15 @@
                 </div>
             </div>
 
-
-
+            <!-- Presentation: Microwave Final -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="TemplateFinalPresentation.pdf" alt="microwave presentation">
+                    <div class="media-placeholder"><i class="fas fa-signal"></i></div>
                 </div>
                 <div class="media-content">
-                    <h3>Microwave and Millimeterwave Systems: Propagation studies at 5G Wireless Bands</h3>
+                    <h3>Microwave and Millimeter-wave Systems: Propagation studies at 5G Wireless Bands</h3>
                     <div class="media-type">Presentation</div>
-                    <p>"A final presentation summarizing all the results from a multiphase experiment focused on radio astronomy interference. Presented at the University of Puerto Rico, Mayaguez, August 2023. "</p>
+                    <p>A final presentation summarizing all the results from a multiphase experiment focused on radio astronomy interference. Presented at the University of Puerto Rico, Mayaguez, August 2023.</p>
                     <div class="media-actions">
                         <a href="TemplateFinalPresentation.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
@@ -912,7 +908,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="fade-in">
