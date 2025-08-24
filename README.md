@@ -835,17 +835,14 @@
             <!-- Presentations Example -->
             <div class="media-item" data-category="presentations">
                 <div class="media-preview">
-                    <img src="Screenshot 2025-08-23 at 20.52.25.png" alt="Cat's Eye Nebula Research Poster">
+                    <img src="1CREATE_PRES_24.pdf" alt="Cat's Eye Nebula Research Presentaion">
                 </div>
                 <div class="media-content">
                     <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
                     <div class="media-type">Research Poster</div>
-                    <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at American Astronomical Society (AAS) Symposium January 2025.</p>
+                    <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at Center for Astrophysics August (CfA) 2025.</p>
                     <div class="media-actions">
-                        <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
-                            <i class="fas fa-eye"></i> View
-                        </a>
-                        <a href="aas (iPosterSessions - an aMuze! Interactive system).pdf" class="media-btn download-btn-small" target="_blank">
+                        <a href="1CREATE_PRES_24.pdf" class="media-btn download-btn-small" target="_blank">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
