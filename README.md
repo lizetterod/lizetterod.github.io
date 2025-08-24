@@ -735,8 +735,8 @@
                     <img src="Screenshot 2025-08-23 at 20.52.25.png" alt="Cat's Eye Nebula Research Poster">
                 </div>
                 <div class="media-content">
-                    <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae<h3>
-                    <div class="media-type">Research Poster<div>
+                    <h3>Applying Clustering Algorithms to X-ray Emission from Planetary Nebulae</h3>
+                    <div class="media-type">Research Poster</div>
                     <p>Computational astrophysics poster presenting DBSCAN clustering analysis of Chandra X-ray observations. Presented at American Astronomical Society (AAS) Symposium January 2024.</p>
                     <div class="media-actions">
                         <a href="https://aas245-aas.ipostersessions.com/default.aspx?s=98-BA-5E-50-15-C0-D8-FD-4E-49-0B-7D-B5-AC-BA-80&guestview=true" class="media-btn view-btn" onclick="openModal('media/cat-eye-nebula-poster.jpg')">
