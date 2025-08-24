@@ -649,7 +649,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-image">
-                <img src="images/profile-photo.jpg" alt="Lizette Rodriguez">
+                <img src="lizette.rodriguez.jpg" alt="Lizette Rodriguez">
                 <!-- Replace with: <img src="your-photo.jpg" alt="Your Name"> -->
             </div>
             <div>
