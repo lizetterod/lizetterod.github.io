@@ -659,7 +659,7 @@
                 Beyond research, Lizette volunteers for outreach with SPS (Society of Physics Students), where she shares her passion for astronomy and works to make science more accessible to the community.
                 </p>
                 <br>
-                <p>Currently pursuing my degree in Physics with a focus on astrophysics, I'm particularly interested in stellar evolution, exoplanet detection, and cosmological phenomena. I believe that through scientific inquiry, we can unlock the secrets of the universe and expand humanity's understanding of our place in the cosmos.</p>
+                <p>Currently pursuing my degree in Physics with a focus on astrophysics, I'm particularly interested in stellar evolution, heliophysics, and cosmological phenomena. I believe that through scientific inquiry, we can unlock the secrets of the universe and expand humanity's understanding of our place in the cosmos.</p>
                 <br>
                 <p>When I'm not studying or conducting research, you can find me at the local observatory, participating in astronomy clubs, or working on computational models of celestial mechanics.</p>
             </div>
